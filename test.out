@@ -1,0 +1,1222 @@
+available device number is 1
+Now pid is 3563044
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:00,  8.21it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  8.97it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:00<00:00,  9.08it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  9.35it/s]
+  0%|          | 0/200 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Q: How is the ground truth for fake news established?
+AP:  unanswerable, 
+
+AP:  It is established by a single person manually inspecting the text field within the tweets to label them as containing fake news or not.  
+
+
+AP:  The ground truth for fake news is established through manual inspection by a single expert who categorized tweets as containing fake news or not. 
+
+
+AP:  The ground truth for fake news is established manually by an expert, 
+
+AP:  The ground truth for fake news was established through manual inspection of the text field of the tweets, 
+
+AP:  The ground truth for fake news is established manually by an expert. 
+
+
+AP:  The ground truth for fake news is established by manual annotation, 
+
+AP:  The ground truth is not claimed to be established perfectly due to the ambiguity of fake news itself and human judgement involved in the process of categorization. 
+
+
+AP:  The ground truth for fake news is established by an expert who manually inspects the text field within the tweets and labels them as containing fake news, or not containing them. 
+
+
+AP:  It is established by a single person through manual annotation of the text field within the tweets. 
+
+
+AP:  The ground truth for fake news is established through manual inspection of the text field within the tweets by an expert. 
+
+
+AP:  The ground truth for fake news is established by a single person manually inspecting the text field within the tweets. 
+
+AP:  The ground truth is not claimed as established, 
+
+AP:  By a single person annotating the tweets, 
+
+AP:  Not claimed to be ground truth, 
+
+AP:  The ground truth for fake news was established by a single person manually annotating 1327 viral tweets, 
+
+AP:  unanswerable, 
+
+AP:  Not established, 
+
+AP:  unanswerable, 
+
+AP:  The ground truth is established through manual annotation by an expert. 
+
+
+AP:  The ground truth is established through manual annotation by an expert. 
+
+
+AP:  Manual inspection of the text field by an expert, 
+
+AP:  By manual inspection of the text field within the tweets by an expert. 
+
+AP:  unanswerable, 
+
+AP:  It is not established by the study, 
+
+AP:  The ground truth for fake news was established by manual annotation by a single person. 
+
+
+AP:  By human judgment of a single person, 
+
+AP:  Unanswerable, 
+
+AP:  The ground truth is established by a single expert manually inspecting the text field within the tweets to label them as containing fake news, or not containing them. 
+
+
+AP:  unanswerable, 
+
+AP:  unanswerable, 
+
+AP: , 
+
+AP:  It is not established perfectly due to the ambiguity of fake news and human judgement involved in the process of categorization. 
+
+
+AP:  The ground truth for fake news is established by a single person manually inspecting the text field within the tweets to label them as containing fake news, or not containing them. 
+
+
+AP:  The ground truth for fake news was established through manual inspection of the text field within the tweets to label them as containing fake news, or not containing them. 
+
+
+AP:  The ground truth for fake news is established through manual inspection by an expert. 
+
+
+AP:  It is established manually by a single person, but with a note that the categorization is far from being perfect due to the ambiguity of fake news. 
+
+AP:  Through manual inspection by a single person, 
+
+AP:  The ground truth is far from being perfect given the ambiguity of fake news and human judgement involved in the process of categorization. 
+
+
+AP:  unanswerable, 
+
+AP:  It is established through manual annotation by an expert, 
+
+AP:  The ground truth for fake news is established through manual inspection by an expert who annotated the tweets as containing fake news or not. 
+
+
+
+AP:  The ground truth is established by a single person who manually inspected the text field within the tweets and labelled them as containing fake news, or not containing them. 
+
+AP:  The ground truth for fake news is established manually by an expert. 
+
+
+AP:  Unanswerable, 
+
+AP:  It is established through manual inspection of the text field of the tweets by an expert. 
+
+AP:  Through manual annotation by a single person. 
+
+
+AP:  unanswerable, 
+
+AP:  Through manual annotation of the 1327 viral tweets by a single expert. 
+
+
+AP:  It is established through a manual annotation by a single person, 
+
+AP:  The annotation was carried out by a single person to obtain a consistent annotation throughout the dataset, and out of 1327 viral tweets, 136 were labelled as potentially containing fake news. 
+
+
+AP:  unanswerable, 
+
+AP:  Unanswerable, 
+
+AP:  The ground truth for fake news is established by a single person who manually inspects the text field within the tweets to label them as containing fake news or not containing them. However, the categorization is far from being perfect given the ambiguity of fake news themselves and human judgement involved in the process of categorization. 
+
+
+
+AP:  unanswerable, 
+
+AP:  The ground truth for fake news is established through a single person manually annotating the dataset of 1327 tweets by inspecting the text field within the tweets to label them as containing fake news, or not containing them. 
+
+AP:  By manual inspection of the text field within the tweets to label them as containing fake news, or not containing them, by an expert. 
+
+
+AP:  It is far from being perfect given the ambiguity of fake news themselves and human judgement involved in the process of categorization. 
+
+
+AP:  Through manual inspection by an expert, 
+
+AP:  By manual inspection of the text field within the tweets, 
+
+
+AP:  Unanswerable, 
+
+AP:  It is established by manual annotation by a single expert, 
+
+AP:  By manual inspection of the text field by an expert. 
+
+
+AP:  Through manual inspection by an expert. 
+
+
+AP:  By a single person manually annotating tweets based on categories of fake news. 
+
+
+AP:  It is far from being perfect, 
+
+AP:  unanswerable, 
+
+AP:  unanswerable, 
+
+AP:  Manually by an expert through the text field within the tweets. 
+
+
+AP:  It is established by a single person who manually annotates the tweets. 
+
+
+AP:  The ground truth for fake news is established through manual inspection by an expert. 
+
+
+AP:  It was annotated by a single expert, 
+
+AP:  unanswerable, 
+
+AP:  unanswerable, 
+
+AP:  The ground truth for fake news is established through manual annotation by a single person. 
+
+
+AP:  unanswerable, 
+
+AP:  It is far from being perfect given the ambiguity of fake news themselves and human judgement involved in the process of categorization. 
+
+AP:  By a single person manually inspecting the text field within the tweets, 
+
+AP:  The ground truth for fake news is established through manual inspection of the text field within the tweets by an expert, 
+
+AP:  The ground truth for fake news is established by a single person manually inspecting the text field within the tweets and labelling them as containing fake news, or not containing them. 
+
+
+AP:  unanswerable, 
+
+AP:  The ground truth for fake news is established through manual inspection of the text field within the tweets by an expert, 
+
+AP:  The ground truth for fake news is established through manual inspection of the text field of the tweets by an expert, according to the characterization provided by Rubin et al. 
+
+AP:  Through manual annotation by an expert, 
+
+AP:  The ground truth for fake news was established manually by a single person. 
+
+
+AP:  The ground truth for fake news is established through a single person manually inspecting the text field within the tweets, 
+
+AP:  Through manual inspection by an expert, 
+
+AP:  The ground truth for fake news is established through a manual annotation process by a single expert. 
+
+
+AP:  unanswerable, 
+
+AP:  It is established by a single person manually annotating the dataset of viral tweets. 
+
+AP:  By a single person manually annotating the tweets, 
+
+AP:  unanswerable, 
+
+AP:  unanswerable, 
+
+AP:  It is established through manual annotation by an expert. 
+
+AP:  unanswerable, 
+
+AP:  unanswerable, 
+
+AP:  By a single person's manual annotation, 
+
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  0%|          | 1/200 [06:46<22:28:02, 406.45s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+AP:  The ground truth for fake news is established by a single expert who manually inspected the text field of the tweets to label them as containing fake news, or not containing them. 
+
+
+
+AP:  The ground truth for fake news is not perfectly established, 
+
+AP:  It is established through manual inspection of the text field within the tweets by an expert. 
+
+Q: What is the GhostVLAD approach?
+AP:  An extension of NetVLAD that adds Ghost clusters along with the NetVLAD clusters, which helps to map noisy or irrelevant content into ghost clusters that are not included during the feature aggregation stage. 
+
+
+AP:  An extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into ghost clusters and exclude them during feature aggregation stage. 
+
+
+AP:  GhostVLAD approach is an extension of the NetVLAD method that includes Ghost clusters to map noisy or irrelevant content into ghost clusters, 
+
+AP:  It is an extension of NetVLAD pooling approach that adds ghost clusters along with the NetVLAD clusters to map any noisy or irrelevant content into ghost clusters, which are not included during the feature aggregation stage. 
+
+
+AP:  It is an extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into ghost clusters. 
+
+
+AP:  It is an extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into ghost clusters. 
+
+
+AP:  A pooling strategy that aggregates frame-level features into a single utterance level feature by adding ghost clusters along with NetVLAD clusters to map any noisy or irrelevant content into ghost clusters. 
+
+AP:  GhostVLAD is an extension of the NetVLAD approach. 
+
+AP:  The GhostVLAD approach is an extension of the NetVLAD pooling strategy. 
+
+
+AP:  An extension of the NetVLAD approach with the addition of ghost clusters. 
+
+
+AP:  GhostVLAD is an extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into ghost clusters and excludes their contribution during feature aggregation. 
+
+
+
+AP:  GhostVLAD is an extension of the NetVLAD approach with additional Ghost clusters. 
+
+AP:  An extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content, 
+
+AP:  GhostVLAD is an extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into ghost clusters and excludes them during feature aggregation. 
+
+
+AP:  An extension of the NetVLAD approach. 
+
+AP:  An extension of NetVLAD pooling strategy with Ghost clusters to map noisy or irrelevant content into ghost clusters. 
+
+
+AP:  GhostVLAD approach is an extension of the NetVLAD approach that adds ghost clusters along with normal clusters. 
+
+
+AP:  A pooling approach that extends the NetVLAD method by adding ghost clusters to map noisy or irrelevant content. 
+
+
+AP:  GhostVLAD is an extension of the NetVLAD approach that adds Ghost clusters along with the NetVLAD clusters. 
+
+
+AP:  GhostVLAD approach is an extension of the NetVLAD approach that adds Ghost clusters to map noisy or irrelevant content into ghost clusters. 
+
+
+AP:  An extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into ghost clusters. 
+
+
+AP:  It is an extension of the NetVLAD approach with ghost clusters that map noisy content into these clusters, and they are not included during feature aggregation. 
+
+AP:  An extension of the NetVLAD approach, adding ghost clusters to map noisy or irrelevant content into ghost clusters, not included during feature aggregation. 
+
+
+
+AP:  An extension of the NetVLAD approach with ghost clusters. 
+
+
+AP:  An extension of NetVLAD, which adds Ghost clusters to map noisy or irrelevant content into ghost clusters. 
+
+
+AP:  A pooling approach that extends NetVLAD, using Ghost clusters to absorb noisy or irrelevant content and assigning less weight to unwanted features, 
+
+AP:  An extension of NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into ghost clusters and excludes them during the feature aggregation stage. 
+
+
+AP:  An extension of the NetVLAD approach that adds Ghost clusters to map noisy or irrelevant content into ghost clusters and are not included during the feature aggregation stage. 
+
+
+AP:  GhostVLAD is an extension of the NetVLAD approach that adds Ghost clusters to map noisy or irrelevant content into ghost clusters, excluding their contribution during feature aggregation. 
+
+
+AP:  An extension of NetVLAD approach. 
+
+AP:  The GhostVLAD approach is an extension of the NetVLAD method that includes ghost clusters to absorb noisy or irrelevant features. 
+
+AP:  The GhostVLAD approach is an extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into ghost clusters. 
+
+
+AP:  It is an extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into ghost clusters. 
+
+
+AP:  GhostVLAD is an extension of the NetVLAD approach. 
+
+
+AP:  GhostVLAD approach is an extension of the NetVLAD model that adds ghost clusters to map noisy or irrelevant content into ghost clusters and not included during feature aggregation. 
+
+
+
+AP:  GhostVLAD is an extension of NetVLAD that adds ghost clusters to map noisy or irrelevant content into ghost clusters, which are excluded during feature aggregation. 
+
+
+
+AP:  It is an extension of the NetVLAD approach, which adds Ghost clusters along with the NetVLAD clusters. 
+
+
+AP:  An extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into ghost clusters. 
+
+
+AP:  An extension of the NetVLAD approach that adds Ghost clusters along with the NetVLAD clusters to map noisy or irrelevant content into ghost clusters. 
+
+
+AP:  An extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into ghost clusters, which are not included during the feature aggregation stage. 
+
+
+AP:  GhostVLAD is an extension of the NetVLAD approach. 
+
+AP:  It is an extension of the NetVLAD approach with ghost clusters. 
+
+
+AP:  The GhostVLAD approach is an extension of NetVLAD that adds Ghost clusters to map noisy or irrelevant content into ghost clusters which are excluded during feature aggregation. 
+
+
+AP:  An extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into ghost clusters. 
+
+
+AP:  It is an extension of NetVLAD that adds ghost clusters to map noisy or irrelevant content into ghost clusters and not included during the feature aggregation stage. 
+
+
+AP:  A pooling method for language identification that aggregates local descriptors into global features, adding Ghost clusters to map noisy or irrelevant content into ghost clusters, which are excluded during feature aggregation. 
+
+
+AP:  GhostVLAD is an extension of NetVLAD approach, which adds ghost clusters to NetVLAD clusters, 
+
+AP:  An extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into ghost clusters, 
+
+AP:  It is an extension of the NetVLAD approach that uses Ghost clusters to map noisy or irrelevant content. 
+
+
+AP:  GhostVLAD is an extension of NetVLAD that adds Ghost clusters to map noisy or irrelevant content into ghost clusters. 
+
+
+AP:  An extension of NetVLAD that adds ghost clusters along with normal clusters to map noisy or irrelevant content into ghost clusters and exclude them during feature aggregation stage. 
+
+
+AP:  It is a pooling approach that is an extension of the NetVLAD approach, adding ghost clusters to map noisy or irrelevant content into ghost clusters and excluding their contribution during feature aggregation. 
+
+
+AP:  It is an extension of the NetVLAD approach with the addition of ghost clusters, proposed for face recognition. 
+
+
+AP:  An extension of the NetVLAD approach, with added Ghost clusters to map noisy or irrelevant content. 
+
+
+AP:  An extension of the NetVLAD approach. 
+
+AP:  It is an extension of the NetVLAD approach that adds ghost clusters along with NetVLAD clusters. 
+
+
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  1%|          | 2/200 [13:24<22:04:18, 401.31s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+AP:  A pooling strategy that aggregates the local descriptors into global features by including ghost clusters to map noisy or irrelevant content into these clusters. 
+
+
+AP:  An extension of the NetVLAD approach with ghost clusters for language identification. 
+
+AP:  It is an extension of the NetVLAD approach that uses ghost clusters to map noisy or irrelevant content into ghost clusters. 
+
+
+AP:  GhostVLAD approach is an extension of the NetVLAD approach, which adds ghost clusters along with the NetVLAD clusters, typically 2-4 ghost clusters, to map any noisy or irrelevant content into ghost clusters and are not included during the feature aggregation stage. 
+
+
+AP:  It is an extension of the NetVLAD approach with added ghost clusters. 
+
+
+AP:  An extension of the NetVLAD approach that adds ghost clusters along with the NetVLAD clusters to map noisy or irrelevant content into ghost clusters. 
+
+
+
+AP:  An extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content. 
+
+
+AP:  An extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into ghost clusters. 
+
+
+AP:  An extension of the NetVLAD approach, adding ghost clusters to map noisy or irrelevant content, with features from ghost clusters not included during feature aggregation. 
+
+AP:  GhostVLAD is an extension of NetVLAD which adds ghost clusters along with normal clusters. 
+
+AP:  An extension of the NetVLAD approach that adds Ghost clusters to map noisy or irrelevant content. 
+
+
+AP:  It is a pooling approach that adds Ghost clusters along with NetVLAD clusters to map any noisy or irrelevant content into ghost clusters. 
+
+
+AP:  GhostVLAD is an extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into these clusters. 
+
+AP:  An extension of the NetVLAD approach that adds Ghost clusters to map noisy or irrelevant content into ghost clusters. 
+
+
+AP:  It is a pooling method that uses Ghost clusters along with NetVLAD clusters. 
+
+
+AP:  It is an extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into ghost clusters. 
+
+
+AP:  GhostVLAD is an extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into ghost clusters and excludes them during feature aggregation, 
+
+AP:  The GhostVLAD approach is an extension of the NetVLAD approach, which adds Ghost clusters along with the NetVLAD clusters to map any noisy or irrelevant content into ghost clusters, and excludes them during feature aggregation. 
+
+
+AP:  GhostVLAD is an extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into ghost clusters, which are not included during the feature aggregation stage. 
+
+
+
+AP:  An extension of the NetVLAD approach that adds ghost clusters along with normal clusters to map noisy or irrelevant content into ghost clusters. 
+
+
+AP:  It is an extension of the NetVLAD approach, which adds Ghost clusters along with the NetVLAD clusters. 
+
+
+AP:  It is an extension of the NetVLAD approach, adding ghost clusters along with normal clusters to improve the language identification performance. 
+
+
+AP:  GhostVLAD is an extension of the NetVLAD approach, which includes both normal clusters and ghost clusters to map noisy or irrelevant content into ghost clusters and exclude their contribution during feature aggregation. 
+
+AP:  It is an extension of the NetVLAD approach that adds Ghost clusters along with the NetVLAD clusters. 
+
+
+AP:  An extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content. 
+
+
+AP:  An extension of the NetVLAD approach that adds Ghost clusters to map noisy or irrelevant content into ghost clusters, not included during the feature aggregation stage. 
+
+
+AP:  An extension of the NetVLAD approach with ghost clusters added to map noisy or irrelevant content into ghost clusters. 
+
+
+AP:  An extension of NetVLAD approach, which adds ghost clusters along with NetVLAD clusters to map noisy or irrelevant content into ghost clusters. 
+
+
+AP:  GhostVLAD pooling approach is an extension of the NetVLAD approach. 
+
+
+AP:  It is a pooling strategy for language identification that extends the NetVLAD approach, adding ghost clusters to map noisy or irrelevant content into ghost clusters. 
+
+AP:  An extension of the NetVLAD approach, which adds Ghost clusters along with the NetVLAD clusters to map any noisy or irrelevant content into ghost clusters and are not included during the feature aggregation stage. 
+
+
+
+AP:  A pooling approach that aggregates frame-level features into a single utterance level feature. 
+
+AP:  It is an extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into ghost clusters. 
+
+
+AP:  GhostVLAD is an extension of the NetVLAD approach, which adds ghost clusters along with NetVLAD clusters to map noisy or irrelevant content into ghost clusters and exclude them during feature aggregation. 
+
+
+AP:  Ghost-VLAD approach is an extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into these ghost clusters, not included during feature aggregation. 
+
+AP:  An extension of NetVLAD approach, adding ghost clusters to map noisy or irrelevant content, and excluding them during feature aggregation. 
+
+
+AP:  A pooling strategy that aggregates frame-level features into a single utterance level feature by using both normal clusters and ghost clusters, with the ghost clusters absorbing noisy or irrelevant content and being excluded during the feature aggregation stage. 
+
+
+AP:  An extension of the NetVLAD approach that includes ghost clusters to map noisy or irrelevant content. 
+
+
+AP:  An extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into these clusters, 
+
+AP:  It is an extension of the NetVLAD approach. 
+
+
+AP:  It is an extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into ghost clusters. 
+
+AP:  An extension of the NetVLAD approach that adds Ghost clusters to map noisy or irrelevant content. 
+
+
+AP:  An extension of NetVLAD approach with additional ghost clusters to improve performance. 
+
+
+AP:  An extension of the NetVLAD approach that adds ghost clusters to map noisy or irrelevant content into ghost clusters. 
+
+
+Q: By how much does their model outperform the state of the art results?
+AP:  68.8% to 71.8%, 
+
+
+AP:  68.8% to 71.8%, 
+
+AP:  By 68.8% to 71.8%. 
+
+
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  By 68.8% to 71.8%, 
+
+AP:  By 68.8% to 71.8%. 
+
+
+AP:  By 68.8% to 71.8%, 
+
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  By 68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+AP:  By 68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  By 68.8% to 71.8%, 
+
+
+AP:  By 68.8% to 71.8%, 
+
+AP:  By 68.8% to 71.8%. 
+
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  By 68.8% to 71.8%, 
+
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  By 68.8% to 71.8%. 
+
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  By 68.8% to 71.8%. 
+
+
+AP:  By 68.8% to 71.8%. 
+
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  68.8% to 71.8% 
+
+
+
+
+AP:  By 68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+AP:  By 68.8% to 71.8%, 
+
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  68.8% to 71.8%, 
+
+AP:  By 68.8% to 71.8%. 
+
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  By 68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+AP:  By 68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  By 68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  By 68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+AP:  By 68.8% to 71.8%, 
+
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  2%|▏         | 3/200 [20:07<22:00:58, 402.33s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  2%|▏         | 3/200 [22:40<24:48:58, 453.50s/it]
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+AP:  By 68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  68.8% to 71.8%, 
+
+AP:  By 68.8% to 71.8%, 
+
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  By 68.8% to 71.8%. 
+
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+AP:  By 68.8% to 71.8%, 
+
+AP:  By 68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  By 68.8% to 71.8%. 
+
+
+AP:  68.8% to 71.8%, 
+
+AP:  By 68.8% to 71.8%, 
+
+
+AP:  By 68.8% to 71.8%, 
+
+AP:  68.8% to 71.8%, 
+
+
+AP:  By 68.8% to 71.8%, 
+
+Q: What additional features and context are proposed?
+AP:  Text sequences of context tweets are directly used as an additional feature of neural network models, which includes the use of a segmentation library to extract more information from hashtags, one-hot encoded vectors for character-level representations, and the concatenation of text sequences of context tweets with outputs of their corresponding labeled tweets. 
+
+
+AP:  Context tweets as an additional feature. 
+
+
+AP:  Context tweets, 
+
+AP:  Text sequences of context tweets. 
+
+
+
+AP:  Context tweets, 
+
+AP:  Text sequences of context tweets are directly used as an additional feature of neural network models. 
+
+
+
+AP:  Context tweets, 
+
+AP:  Context tweets. 
+
+
+AP:  Context tweets. 
+
+
+AP:  Context tweets as additional features, 
+
+AP:  Text sequences of context tweets as an additional feature of neural network models. 
+
+AP:  Text sequences of context tweets are used as an additional feature. 
+
+
+AP:  Text sequences of context tweets are directly used as an additional feature of neural network models. 
+
+AP:  Text sequences of context tweets are directly used as an additional feature of neural network models. 
+
+AP:  Context tweets and latent topic clustering. 
+
+
+AP:  The use of context tweets. 
+
+
+AP:  Context tweets are proposed as an additional feature. 
+
+AP:  Context tweets and latent topic clustering, 
+
+AP:  Additional features and context of context tweets are proposed. 
+
+AP:  Text sequences of context tweets are directly used as an additional feature of neural network models. 
+
+AP:  Additional context and text sequences of context tweets are proposed. 
+
+
+AP:  Additional features and context include context tweets. 
+
+
+AP:  Context tweets are proposed as an additional feature. 
+
+
+AP:  Text sequences of context tweets are directly used as an additional feature of neural network models. 
+
+AP:  Additional context tweets and character-level representations are proposed. 
+
+
+AP:  Context tweets, 
+
+AP:  Additional context tweets and text sequences. 
+
+
+AP:  The use of context tweets and their direct text sequences. 
+
+
+AP:  Context tweets and their text sequences. 
+
+
+AP:  Context tweets. 
+
+AP:  Context tweets, 
+
+AP:  Directly used text sequences of context tweets as an additional feature. 
+
+
+AP:  Text sequences of context tweets. 
+
+
+AP:  Additional context from reply or quoted tweets, 
+
+AP:  context tweets, 
+
+AP:  Context tweets and Latent Topic Clustering (LTC) modules, 
+
+AP:  Text sequences of context tweets, 
+
+AP:  Directly using text sequences of context tweets as an additional feature, considering context information to better understand abusive language. 
+
+Traceback (most recent call last):
+  File "/home/azureuser/LongBench/test.py", line 135, in <module>
+    get_pred(0, world_size, data_subsets[0], max_length, \
+  File "/home/azureuser/LongBench/test.py", line 62, in get_pred
+    pred = post_process(pred, model_name,args)
+  File "/home/azureuser/LongBench/pred.py", line 54, in post_process
+    response=response.split("Reasoning")[0].split("Answer:")[1]
+IndexError: list index out of range

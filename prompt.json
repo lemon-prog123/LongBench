@@ -1,0 +1,7 @@
+{
+    "system": "You are an examiner tasked with evaluating a student's answer to a question based on a given article. You will compare the student's answer to a standard answer and determine if it is correct.",
+    "context": "{article}",
+    "instruction": "Read the article, question, student's answer, and standard answer carefully. If the student's answer aligns with the standard answer and contains no significant errors, output 'yes'. Otherwise, output 'no'. Do not provide any explanation or additional comments.",
+    "input": "Question: {question}\nStudent's Answer: {student_answer}\nStandard Answer: {standard_answer}",
+    "output_format": "{yes/no}"
+  }

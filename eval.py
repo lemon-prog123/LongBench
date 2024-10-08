@@ -43,6 +43,8 @@ def parse_args(args=None):
     parser = argparse.ArgumentParser()
     parser.add_argument('--model', type=str, default=None)
     parser.add_argument('--e', action='store_true', help="Evaluate on LongBench-E")
+    parser.add_argument('--t', action='store_true', help="Evaluate on LongBench-t")
+    parser.add_argument('--sample', action='store_true', help="Evaluate on test mode")
     return parser.parse_args(args)
 
 def scorer_e(dataset, predictions, answers, lengths, all_classes):
@@ -70,8 +72,32 @@ def scorer(dataset, predictions, answers, all_classes):
         if dataset in ["trec", "triviaqa", "samsum", "lsht"]:
             prediction = prediction.lstrip('\n').split('\n')[0]
         for ground_truth in ground_truths:
+            #prediction2=prediction.split(".")[0].split("Answer:")[1]
+            #print(prediction2)
             score = max(score, dataset2metric[dataset](prediction, ground_truth, all_classes=all_classes))
         total_score += score
+    return round(100 * total_score / len(predictions), 2)
+
+def scored(dataset, predictions, answers, all_classes,args):
+    total_score = 0.
+    records=[]
+    for (preds, ground_truths) in zip(predictions, answers):
+        score = 0.
+        oscore=0
+        cnt=0
+        record=0
+        for pred in preds:
+            for ground_truth in ground_truths:
+                oscore=score
+                score = max(score, dataset2metric[dataset](pred, ground_truth, all_classes=all_classes))
+                if score>oscore:
+                    record=cnt
+            cnt+=1
+        records.append(record)
+        total_score += score
+    
+    with open(f'pred/{args.model}/record.json', "a", encoding="utf-8") as f:
+        json.dump(records, f, ensure_ascii=False)
     return round(100 * total_score / len(predictions), 2)
 
 if __name__ == '__main__':
@@ -79,6 +105,8 @@ if __name__ == '__main__':
     scores = dict()
     if args.e:
         path = f"pred_e/{args.model}/"
+    elif args.t:
+        path=f"pred_t/{args.model}/"
     else:
         path = f"pred/{args.model}/"
     all_files = os.listdir(path)
@@ -98,11 +126,15 @@ if __name__ == '__main__':
                     lengths.append(data["length"])
         if args.e:
             score = scorer_e(dataset, predictions, answers, lengths, all_classes)
+        elif args.sample:
+            score = scored(dataset, predictions, answers, all_classes,args)
         else:
             score = scorer(dataset, predictions, answers, all_classes)
         scores[dataset] = score
     if args.e:
         out_path = f"pred_e/{args.model}/result.json"
+    elif args.t:
+        out_path=f"pred_t/{args.model}/result.json"
     else:
         out_path = f"pred/{args.model}/result.json"
     with open(out_path, "w") as f:

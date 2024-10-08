@@ -1,0 +1,1153 @@
+4143167
+Evaluating on: ['qasper.jsonl', 'record_sample.json', 'record.json', 'qasper_sample.json', 'result.json']
+
+1
+
+What is the GhostVLAD approach?
+yes
+no
+
+0
+
+How is the ground truth for fake news established?
+yes
+
+3
+
+What additional features and context are proposed?
+no
+yes
+
+4
+
+Which Facebook pages did they look at?
+yes
+yes
+
+2
+
+By how much does their model outperform the state of the art results?
+no
+
+6
+
+What type of evaluation is proposed for this task?
+no
+
+195
+
+Do they evaluate only on English datasets?
+yes
+yes
+
+7
+
+What are the datasets used for evaluation?
+yes
+yes
+
+12
+
+What sentiment analysis dataset is used?
+yes
+yes
+
+172
+
+In what language are the tweets?
+yes
+no
+
+8
+
+How does this approach compare to other WSD approaches employing word embeddings?
+yes
+
+9
+
+How does their ensemble method work?
+yes
+
+10
+
+What are the sources of the datasets?
+yes
+
+179
+
+Do they employ their indexing-based method to create a sample of a QA Wikipedia dataset?
+no
+
+13
+
+What accuracy does the proposed system achieve?
+no
+no
+
+15
+
+What datasets are used?
+no
+no
+
+20
+
+By how much did they improve?
+no
+
+19
+
+What are the baselines?
+yes
+yes
+
+17
+
+what NMT models did they compare with?
+yes
+
+22
+
+what was the baseline?
+no
+no
+
+18
+
+What are the three regularization terms?
+yes
+yes
+
+21
+
+How does their model improve interpretability compared to softmax transformers?
+yes
+no
+
+16
+
+Which stock market sector achieved the best performance?
+no
+yes
+
+198
+
+How do the authors evidence the claim that many engineers find it a big overhead to choose from multiple frameworks, models and optimization techniques?
+yes
+no
+
+23
+
+What metrics are used for evaluation?
+no
+yes
+
+198
+
+How do the authors evidence the claim that many engineers find it a big overhead to choose from multiple frameworks, models and optimization techniques?
+no
+
+30
+
+What metrics are used for evaluation?
+no
+no
+no
+
+69
+
+What architecture does the decoder have?
+yes
+yes
+
+198
+
+How do the authors evidence the claim that many engineers find it a big overhead to choose from multiple frameworks, models and optimization techniques?
+no
+no
+
+29
+
+How many users do they look at?
+no
+yes
+
+24
+
+What is the attention module pretrained on?
+no
+
+179
+
+Do they employ their indexing-based method to create a sample of a QA Wikipedia dataset?
+yes
+yes
+
+31
+
+What labels do they create on their dataset?
+no
+no
+
+38
+
+which lstm models did they compare with?
+no
+
+34
+
+What is the improvement in performance for Estonian in the NER task?
+no
+no
+
+33
+
+What tasks are used for evaluation?
+no
+no
+
+37
+
+Which languages are similar to each other?
+yes
+yes
+
+198
+
+How do the authors evidence the claim that many engineers find it a big overhead to choose from multiple frameworks, models and optimization techniques?
+yes
+
+32
+
+How much data is needed to train the task-specific encoder?
+no
+no
+
+44
+
+What are the source and target domains?
+no
+no
+
+39
+
+How large is their data set?
+no
+
+46
+
+What neural network modules are included in NeuronBlocks?
+no
+no
+
+42
+
+How are models evaluated in this human-machine communication game?
+no
+yes
+
+195
+
+Do they evaluate only on English datasets?
+yes
+yes
+
+45
+
+what previous RNN models do they compare with?
+no
+
+43
+
+What evaluation metrics are looked at for classification tasks?
+no
+yes
+
+40
+
+How were the human judgements assembled?
+no
+no
+
+179
+
+Do they employ their indexing-based method to create a sample of a QA Wikipedia dataset?
+yes
+yes
+
+47
+
+what datasets did they use?
+no
+yes
+
+50
+
+What other tasks do they test their method on?
+yes
+
+49
+
+What are the languages they use in their experiment?
+no
+yes
+
+53
+
+How do they obtain psychological dimensions of people?
+no
+no
+
+195
+
+Do they evaluate only on English datasets?
+yes
+yes
+
+48
+
+What were the baselines?
+no
+
+60
+
+How is the quality of the data empirically evaluated? 
+no
+yes
+
+54
+
+What argument components do the ML methods aim to identify?
+yes
+yes
+
+198
+
+How do the authors evidence the claim that many engineers find it a big overhead to choose from multiple frameworks, models and optimization techniques?
+no
+no
+
+58
+
+What are two datasets model is applied to?
+yes
+no
+
+61
+
+How do they combine audio and text sequences in their RNN?
+yes
+no
+
+179
+
+Do they employ their indexing-based method to create a sample of a QA Wikipedia dataset?
+yes
+yes
+
+56
+
+How large is the Twitter dataset?
+yes
+yes
+
+68
+
+What is the benchmark dataset and is its quality high?
+no
+no
+
+62
+
+by how much did their model improve?
+no
+yes
+
+198
+
+How do the authors evidence the claim that many engineers find it a big overhead to choose from multiple frameworks, models and optimization techniques?
+no
+no
+
+66
+
+what is the source of the data?
+yes
+
+57
+
+What are the 12 languages covered?
+yes
+yes
+
+69
+
+What architecture does the decoder have?
+yes
+yes
+
+67
+
+What machine learning and deep learning methods are used for RQE?
+yes
+
+64
+
+What is their definition of tweets going viral?
+yes
+yes
+
+195
+
+Do they evaluate only on English datasets?
+yes
+
+198
+
+How do the authors evidence the claim that many engineers find it a big overhead to choose from multiple frameworks, models and optimization techniques?
+yes
+yes
+
+71
+
+What is best performing model among author's submissions, what performance it had?
+no
+
+65
+
+Which basic neural architecture perform best by itself?
+yes
+
+74
+
+What embedding techniques are explored in the paper?
+no
+no
+
+77
+
+Who were the experts used for annotation?
+yes
+no
+
+198
+
+How do the authors evidence the claim that many engineers find it a big overhead to choose from multiple frameworks, models and optimization techniques?
+no
+no
+
+72
+
+what was the baseline?
+no
+yes
+
+84
+
+How much higher quality is the resulting annotated data?
+no
+
+78
+
+What models are used for painting embedding and what for language style transfer?
+no
+
+79
+
+On top of BERT does the RNN layer work better or the transformer layer?
+no
+yes
+
+82
+
+How do they obtain the new context represetation?
+yes
+
+85
+
+How big is imbalance in analyzed corpora?
+yes
+
+73
+
+What was their highest recall score?
+yes
+yes
+
+83
+
+How many different types of entities exist in the dataset?
+no
+no
+
+195
+
+Do they evaluate only on English datasets?
+yes
+yes
+
+195
+
+Do they evaluate only on English datasets?
+yes
+yes
+
+86
+
+What dataset does this approach achieve state of the art results on?
+yes
+
+87
+
+What are strong baselines model is compared to?
+no
+
+90
+
+On what datasets are experiments performed?
+yes
+yes
+
+93
+
+What datasets did they use for evaluation?
+yes
+yes
+
+81
+
+What cyberbulling topics did they address?
+yes
+no
+
+91
+
+what are the existing approaches?
+no
+
+88
+
+What type of classifiers are used?
+no
+yes
+
+100
+
+What are the baselines?
+no
+yes
+no
+
+94
+
+What sentiment classification dataset is used?
+yes
+yes
+
+195
+
+Do they evaluate only on English datasets?
+yes
+yes
+
+89
+
+Which toolkits do they use?
+no
+no
+
+98
+
+How does proposed qualitative annotation schema looks like?
+yes
+no
+
+198
+
+How do the authors evidence the claim that many engineers find it a big overhead to choose from multiple frameworks, models and optimization techniques?
+no
+no
+
+179
+
+Do they employ their indexing-based method to create a sample of a QA Wikipedia dataset?
+yes
+
+99
+
+what are the sizes of both datasets?
+no
+no
+
+108
+
+Which existing benchmarks did they compare to?
+yes
+yes
+
+102
+
+What models are used in the experiment?
+yes
+yes
+yes
+
+179
+
+Do they employ their indexing-based method to create a sample of a QA Wikipedia dataset?
+yes
+
+97
+
+What is the invertibility condition?
+no
+yes
+
+109
+
+What were their distribution results?
+no
+
+106
+
+What is the combination of rewards for reinforcement learning?
+yes
+yes
+
+104
+
+what pretrained word embeddings were used?
+no
+yes
+
+107
+
+What limitations do the authors demnostrate of their model?
+no
+no
+
+116
+
+What dataset did they use?
+no
+yes
+
+110
+
+How is the dataset of hashtags sourced?
+no
+yes
+
+198
+
+How do the authors evidence the claim that many engineers find it a big overhead to choose from multiple frameworks, models and optimization techniques?
+yes
+yes
+
+105
+
+What were their results on the new dataset?
+no
+
+117
+
+Do they use large or small BERT?
+yes
+yes
+
+195
+
+Do they evaluate only on English datasets?
+no
+yes
+
+112
+
+What can word subspace represent?
+no
+
+198
+
+How do the authors evidence the claim that many engineers find it a big overhead to choose from multiple frameworks, models and optimization techniques?
+yes
+yes
+
+124
+
+What other sentence embeddings methods are evaluated?
+no
+no
+
+179
+
+Do they employ their indexing-based method to create a sample of a QA Wikipedia dataset?
+yes
+yes
+
+195
+
+Do they evaluate only on English datasets?
+yes
+yes
+
+179
+
+Do they employ their indexing-based method to create a sample of a QA Wikipedia dataset?
+yes
+yes
+
+125
+
+What are method's improvements of F1 for NER task for English and Chinese datasets?
+yes
+yes
+
+113
+
+What baseline model is used?
+yes
+yes
+
+120
+
+What was their performance on emotion detection?
+no
+
+123
+
+How do they define robustness of a model?
+no
+no
+
+132
+
+Which models did they experiment with?
+no
+
+126
+
+On which tasks do they test their conflict method?
+yes
+yes
+
+127
+
+Which baselines did they compare against?
+no
+no
+
+130
+
+Which methods are considered to find examples of biases and unwarranted inferences??
+no
+no
+
+195
+
+Do they evaluate only on English datasets?
+yes
+no
+
+121
+
+What is the tagging scheme employed?
+no
+no
+
+128
+
+What is te core component for KBQA?
+no
+no
+
+131
+
+What language do they explore?
+no
+no
+
+140
+
+How big is the difference in performance between proposed model and baselines?
+no
+
+134
+
+What summarization algorithms did the authors experiment with?
+no
+no
+
+135
+
+What was the previous state of the art for this task?
+no
+no
+
+138
+
+Which 7 Indian languages do they experiment with?
+no
+no
+
+129
+
+What are the baseline models?
+yes
+
+141
+
+How much improvement is gained from Adversarial Reward Augmented Maximum Likelihood (ARAML)?
+no
+no
+
+139
+
+What is the model performance on target language reading comprehension?
+no
+no
+
+136
+
+Which component is the least impactful?
+no
+
+148
+
+Which baselines are used for evaluation?
+no
+
+142
+
+What evidence do the authors present that the model can capture some biases in data annotation and collection?
+no
+
+143
+
+Were other baselines tested to compare with the neural baseline?
+no
+yes
+
+146
+
+What datasets are used?
+no
+no
+
+137
+
+What is the corpus used for the task?
+yes
+no
+
+149
+
+What learning models are used on the dataset?
+yes
+yes
+
+147
+
+What data was presented to the subjects to elicit event-related responses?
+yes
+no
+
+144
+
+What is the size of the dataset?
+no
+no
+
+156
+
+which languages are explored?
+yes
+yes
+
+150
+
+What language model architectures are used?
+no
+yes
+
+151
+
+How are weights dynamically adjusted?
+no
+yes
+
+198
+
+How do the authors evidence the claim that many engineers find it a big overhead to choose from multiple frameworks, models and optimization techniques?
+yes
+no
+
+145
+
+What are method improvements of F1 for paraphrase identification?
+no
+yes
+
+157
+
+How effective is their NCEL approach overall?
+yes
+
+152
+
+What are the results from these proposed strategies?
+no
+yes
+
+155
+
+What is a semicharacter architecture?
+no
+yes
+
+164
+
+How is the dataset annotated?
+yes
+yes
+
+195
+
+Do they evaluate only on English datasets?
+yes
+yes
+
+159
+
+What was the baseline used?
+yes
+yes
+
+198
+
+How do the authors evidence the claim that many engineers find it a big overhead to choose from multiple frameworks, models and optimization techniques?
+yes
+no
+yes
+
+153
+
+What does an individual model consist of?
+no
+
+165
+
+Which eight NER tasks did they evaluate on?
+no
+no
+
+160
+
+where did they obtain the annotated clinical notes from?
+yes
+yes
+
+198
+
+How do the authors evidence the claim that many engineers find it a big overhead to choose from multiple frameworks, models and optimization techniques?
+no
+
+172
+
+In what language are the tweets?
+yes
+yes
+yes
+
+166
+
+How was the training data translated?
+yes
+yes
+
+167
+
+What model did they use for their system?
+no
+
+170
+
+How is the political bias of different sources included in the model?
+no
+no
+
+161
+
+Why masking words in the decoder is helpful?
+no
+
+173
+
+which chinese datasets were used?
+no
+
+168
+
+What was the baseline for this task?
+yes
+yes
+
+171
+
+Where does the ancient Chinese dataset come from?
+yes
+no
+
+180
+
+Which sports clubs are the targets?
+yes
+yes
+
+174
+
+How many layers does the UTCNN model have?
+no
+
+175
+
+what dataset is used in this paper?
+no
+no
+
+178
+
+What metrics are used to establish that this makes chatbots more knowledgeable and better at learning and conversation? 
+yes
+no
+
+169
+
+What baselines do they compare with?
+no
+
+181
+
+What experiments are conducted?
+no
+
+195
+
+Do they evaluate only on English datasets?
+yes
+no
+
+176
+
+What are the clinical datasets used in the paper?
+yes
+yes
+
+198
+
+How do the authors evidence the claim that many engineers find it a big overhead to choose from multiple frameworks, models and optimization techniques?
+yes
+yes
+
+182
+
+How does Gaussian-masked directional multi-head attention works?
+no
+no
+
+183
+
+What types of social media did they consider?
+yes
+yes
+
+186
+
+What were the scores of their system?
+no
+
+198
+
+How do the authors evidence the claim that many engineers find it a big overhead to choose from multiple frameworks, models and optimization techniques?
+no
+
+187
+
+How large is the corpus?
+yes
+yes
+
+189
+
+What NLP tasks do they consider?
+no
+
+184
+
+What are the network's baseline features?
+yes
+
+196
+
+What was their highest MRR score?
+no
+yes
+
+190
+
+What previous methods is their model compared to?
+no
+
+185
+
+Which hyperparameters were varied in the experiments on the four tasks?
+no
+no
+
+191
+
+How larger are the training sets of these versions of ELMo compared to the previous ones?
+no
+no
+
+195
+
+Do they evaluate only on English datasets?
+yes
+yes
+
+195
+
+Do they evaluate only on English datasets?
+yes
+no
+
+192
+
+How many sentences does the dataset contain?
+no
+yes
+
+197
+
+What datasets do they evaluate on?
+yes
+no
+
+198
+
+How do the authors evidence the claim that many engineers find it a big overhead to choose from multiple frameworks, models and optimization techniques?
+yes
+no
+
+193
+
+Which models/frameworks do they compare to?
+no
+yes
+
+199
+
+On which benchmarks they achieve the state of the art?
+yes
+yes
+0.605

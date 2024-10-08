@@ -1,0 +1,1 @@
+nohup python -u llm.py >llm.out &
