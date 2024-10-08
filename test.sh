@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=4 nohup python test.py --test --model llama3.1-8B-Instruct >test.out &

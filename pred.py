@@ -2,7 +2,7 @@ import os
 from datasets import load_dataset
 import torch
 import json
-from transformers import AutoTokenizer, LlamaTokenizer, LlamaForCausalLM, AutoModelForCausalLM
+from transformers import AutoTokenizer, LlamaTokenizer, LlamaForCausalLM, AutoModelForCausalLM,pipeline
 from tqdm import tqdm
 import numpy as np
 import random
@@ -13,7 +13,7 @@ import torch.multiprocessing as mp
 
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', type=str, default=None, choices=["llama2-7b-chat-4k", "longchat-v1.5-7b-32k", "xgen-7b-8k", "internlm-7b-8k", "chatglm2-6b", "chatglm2-6b-32k", "chatglm3-6b-32k", "vicuna-v1.5-7b-16k"])
+    parser.add_argument('--model', type=str, default=None, choices=["llama2-7b-chat-4k", "llama3.1-8B-Instruct","longchat-v1.5-7b-32k", "xgen-7b-8k", "internlm-7b-8k", "chatglm2-6b", "chatglm2-6b-32k", "chatglm3-6b-32k", "vicuna-v1.5-7b-16k"])
     parser.add_argument('--e', action='store_true', help="Evaluate on LongBench-E")
     return parser.parse_args(args)
 
@@ -31,6 +31,8 @@ def build_chat(tokenizer, prompt, model_name):
         prompt = conv.get_prompt()
     elif "llama2" in model_name:
         prompt = f"[INST]{prompt}[/INST]"
+    elif "llama3.1" in model_name:
+        prompt = f"{prompt}"
     elif "xgen" in model_name:
         header = (
             "A chat between a curious human and an artificial intelligence assistant. "
@@ -41,11 +43,24 @@ def build_chat(tokenizer, prompt, model_name):
         prompt = f"<|User|>:{prompt}<eoh>\n<|Bot|>:"
     return prompt
 
-def post_process(response, model_name):
+def post_process(response, model_name,args=None):
     if "xgen" in model_name:
         response = response.strip().replace("Assistant:", "")
     elif "internlm" in model_name:
         response = response.split("<eoa>")[0]
+    elif "llama3.1" in model_name:
+        if args!=None:
+            if args.test:
+                try:
+                    response=response.split("Reasoning")[0].split("Answer:")[1]
+                except:
+                    try:
+                        response=response.split("Reasoning")[0]
+                    except:
+                        response=response
+            else:
+                response=response.split("Answer:")[1]
+                #response=response
     return response
 
 def get_pred(rank, world_size, data, max_length, max_gen, prompt_format, dataset, device, model_name, model2path, out_path):
@@ -112,6 +127,13 @@ def load_model_and_tokenizer(path, model_name, device):
         replace_llama_attn_with_flash_attn()
         tokenizer = LlamaTokenizer.from_pretrained(path)
         model = LlamaForCausalLM.from_pretrained(path, torch_dtype=torch.bfloat16).to(device)
+    elif "llama3.1" in model_name:
+        tokenizer = AutoTokenizer.from_pretrained(path)
+        model=AutoModelForCausalLM.from_pretrained(path,torch_dtype=torch.bfloat16).to(device)
+        #pi = pipeline(
+        #"text-generation", model=path, model_kwargs={"torch_dtype": torch.bfloat16}, device_map=device,max_length=120000
+        #)
+        #return pi
     elif "longchat" in model_name or "vicuna" in model_name:
         from fastchat.model import load_model
         replace_llama_attn_with_flash_attn()
