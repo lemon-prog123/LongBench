@@ -53,7 +53,7 @@ def post_process(response, model_name,args=None):
         if args!=None:
             if args.test:
                 try:
-                    response=response.split("Reasoning")[0].split("Answer:")[1]
+                    response=response#response=response.split("Reasoning")[0].split("Answer:")[1]
                 except:
                     try:
                         response=response.split("Reasoning")[0]
@@ -61,7 +61,7 @@ def post_process(response, model_name,args=None):
                         response=response
             else:
                 try:
-                    response=response.split("Answer:")[1]
+                    response=response#.split("Answer:")[1]
                 except:
                     response=response
                 #response=response
@@ -69,7 +69,9 @@ def post_process(response, model_name,args=None):
 
 def get_pred(rank, world_size, data, max_length, max_gen, prompt_format, dataset, device, model_name, model2path, out_path,args):
     device = torch.device(f'cuda:{rank}')
+    max_gen= 128#test mode
     model, tokenizer = load_model_and_tokenizer(model2path[model_name], model_name, device)
+    cnt=0
     for json_obj in tqdm(data):
         preds=[]
         prompt = prompt_format.format(**json_obj)
@@ -117,8 +119,9 @@ def get_pred(rank, world_size, data, max_length, max_gen, prompt_format, dataset
         #pred = tokenizer.decode(output[context_length:], skip_special_tokens=True)
         #pred = post_process(pred, model_name)
         with open(out_path, "a", encoding="utf-8") as f:
-            json.dump({"pred": preds, "answers": json_obj["answers"], "all_classes": json_obj["all_classes"], "length": json_obj["length"]}, f, ensure_ascii=False)
+            json.dump({"pred": preds, "answers": json_obj["answers"], "all_classes": json_obj["all_classes"], "length": json_obj["length"],"tag":cnt}, f, ensure_ascii=False)
             f.write('\n')
+        cnt=cnt+1
     dist.destroy_process_group()
 
 def seed_everything(seed):

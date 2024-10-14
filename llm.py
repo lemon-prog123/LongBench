@@ -9,10 +9,12 @@ from tqdm import tqdm
 answer_dict={}
 records=[]
 path='pred/llama3.1-8B-Instruct'
-with open(f"config/answer2dict.json", "r", encoding="utf-8") as f:
-    answer_dict=json.load(f)
-with open(f"{path}/record.json", "r", encoding="utf-8") as f:
-    records=json.load(f)
+try:
+    with open(f"{path}/record.json", "r", encoding="utf-8") as f:
+        records=json.load(f)
+except:
+    print("Record None!")
+    records=None
 
 print(os.getpid())
 def judge(data):
@@ -54,14 +56,22 @@ def judged(data):
     )
     while(cnt<200):
         flag=False
-        gt=answers[cnt][0]
-        num=int(answer_dict[gt])
-        print('\n'+str(num)+'\n')
-        json_obj=data[num]
+        print('\n'+str(cnt)+'\n')
+        json_obj=data[cnt]
         print(json_obj['input'])
-        #for pred in predictions[cnt]:
-        pred=predictions[cnt][records[cnt]]
-        for gt in answers[cnt]:
+        pred=json_obj['output']
+        answers=json_obj['answers']
+        try:
+            pred_post=pred.split("Reasoning")[0].split("Answer:")[1]
+        except:
+            try:
+                pred_post=pred.split("Reasoning")[0]
+            except:
+                pred_post=pred
+        pred=pred_post
+        print(json_obj['score'])
+        print('\n')
+        for gt in answers:
             json_obj['prediction']=pred
             json_obj['answer']=gt
             prompt = prompt_format.format(**json_obj)
@@ -71,12 +81,16 @@ def judged(data):
             {"role": "user", "content": prompt}
             ])
             print(completion.choices[0].message.content)
-            if completion.choices[0].message.content=='yes':
+            if 'yes' in completion.choices[0].message.content or 'Yes' in completion.choices[0].message.content:
                 flag=True
         if flag:
             correct+=1
+            data[cnt]['judged']=1
+        else:
+            data[cnt]['judged']=0
         cnt=cnt+1
-    #print(json_obj.keys())
+    with open(f'pred/llama3.1-8B-Instruct/qasper_judged.json', "a", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False)
     print(correct/cnt)
 
 path=f"pred/llama3.1-8B-Instruct/"
@@ -98,12 +112,15 @@ for filename in all_files:
 dataset="qasper" #test with qasper
 judgeprompt = json.load(open("config/judgeprompt.json", "r"))
 prompt_format = judgeprompt[dataset]
+'''
 data = load_dataset('THUDM/LongBench', dataset, split='test')
 world_size=1
 data_all = [data_sample for data_sample in data]
 data_subsets = [data_all[i::world_size] for i in range(world_size)]
 data=data_subsets[0]
-
+'''
+with open(f"dataset/qasper_dataset.json", "r", encoding="utf-8") as f:
+    data=json.load(f)
 judged(data)
 
 

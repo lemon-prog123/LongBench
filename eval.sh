@@ -1,1 +1,1 @@
-python eval.py --model llama3.1-8B-Instruct --sample
+python eval.py --model llama3.1-8B-Instruct --sample --test
